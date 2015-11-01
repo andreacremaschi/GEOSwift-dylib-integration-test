@@ -1,0 +1,21 @@
+PODS:
+  - geosprebuilt (3.4.2)
+
+DEPENDENCIES:
+  - geosprebuilt (from `https://github.com/andreacremaschi/geos-fat-dynamic-bitcode.git`,
+    branch `try/GEOSwift-integration`)
+
+EXTERNAL SOURCES:
+  geosprebuilt:
+    :branch: try/GEOSwift-integration
+    :git: https://github.com/andreacremaschi/geos-fat-dynamic-bitcode.git
+
+CHECKOUT OPTIONS:
+  geosprebuilt:
+    :commit: ddcc0ee4bb5cea007f72e985ca4d456cdcf4ab8e
+    :git: https://github.com/andreacremaschi/geos-fat-dynamic-bitcode.git
+
+SPEC CHECKSUMS:
+  geosprebuilt: c9eea6be9a4b5b849bf50c5e79cf7dc75a9ed861
+
+COCOAPODS: 0.39.0
