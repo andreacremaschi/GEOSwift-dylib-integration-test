@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F4F9273643A1FE75A236B39 /* libPods-GEOSframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 648A059E918907FE66A0D083 /* libPods-GEOSframework.a */; };
 		CDCBFB371BE6AD1800EB0380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBFB361BE6AD1800EB0380 /* AppDelegate.swift */; };
 		CDCBFB391BE6AD1800EB0380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBFB381BE6AD1800EB0380 /* ViewController.swift */; };
 		CDCBFB3C1BE6AD1800EB0380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCBFB3A1BE6AD1800EB0380 /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		CDCBFB551BE6AD3100EB0380 /* GEOSframework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDCBFB4D1BE6AD3100EB0380 /* GEOSframework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDCBFB5D1BE6AD7400EB0380 /* GEOSframework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBFB5C1BE6AD7400EB0380 /* GEOSframework.swift */; };
 		CDCBFB5F1BE6AF7C00EB0380 /* GEOSframework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDCBFB4D1BE6AD3100EB0380 /* GEOSframework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E597D4B1B76ABFDD93C261E3 /* Pods_GEOSframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF76DE9AC17FEDAD39B951CC /* Pods_GEOSframework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 
 /* Begin PBXFileReference section */
 		58F7BDA4BD6C934B2BB0DC65 /* Pods-GEOSframework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSframework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEOSframework/Pods-GEOSframework.debug.xcconfig"; sourceTree = "<group>"; };
-		648A059E918907FE66A0D083 /* libPods-GEOSframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GEOSframework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA7F935A8739C01C624F665 /* Pods-GEOSframework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEOSframework.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEOSframework/Pods-GEOSframework.release.xcconfig"; sourceTree = "<group>"; };
+		BF76DE9AC17FEDAD39B951CC /* Pods_GEOSframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEOSframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCBFB331BE6AD1800EB0380 /* integration-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "integration-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCBFB361BE6AD1800EB0380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCBFB381BE6AD1800EB0380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4F9273643A1FE75A236B39 /* libPods-GEOSframework.a in Frameworks */,
+				E597D4B1B76ABFDD93C261E3 /* Pods_GEOSframework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		0B0DE5541A71D76410FF7759 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				648A059E918907FE66A0D083 /* libPods-GEOSframework.a */,
+				BF76DE9AC17FEDAD39B951CC /* Pods_GEOSframework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
